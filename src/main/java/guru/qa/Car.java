@@ -1,11 +1,11 @@
 package guru.qa;
 
 public class Car {
-     private String origin;
-     private int year;
-     private int budget;
-     private boolean isCarWashOutside;
-     private boolean isCleanInterior;
+    private String origin;
+    private int year;
+    private int budget;
+    private boolean isCarWashOutside;
+    private boolean isCleanInterior;
 
     public Car(String origin, int year, int budget, boolean isCarWashOutside, boolean isCleanInterior) {
         this.origin = origin;
@@ -35,7 +35,7 @@ public class Car {
     }
 
     void showBudget() {
-        System.out.println(budget);
+        System.out.println(budget + "$");
     }
 
     void provideService() {
